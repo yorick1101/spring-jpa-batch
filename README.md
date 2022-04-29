@@ -26,8 +26,9 @@ spring:
           batch_versioned_data: true
 ```
 
-*generate_statistics* will display the statistics in log like below:
-
+Enable ```generate_statistics``` will display the statistics in log (see below)   
+Find ```Executing 2 JDBC batches``` since we have 10 statements and batch size is 2
+  
   
 ```
     5455000 nanoseconds spent acquiring 1 JDBC connections;
